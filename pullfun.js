@@ -7,11 +7,11 @@ console.log(_.reverse(array))
 console.log(_.slice(array,0,3))
 console.log(_.sortedIndex())
 
-var users = [
-    { 'user': 'barney',  'active': true },
-    { 'user': 'fred',    'active': false },
-    { 'user': 'pebbles', 'active': false }
-  ];
+// var users = [
+//     { 'user': 'barney',  'active': true },
+//     { 'user': 'fred',    'active': false },
+//     { 'user': 'pebbles', 'active': false }
+//   ];
    
   const val=_.takeRightWhile(users, function(o) { return !o.active; });
 console.log(val)    
